@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DotNetCore.Extensions" Version="10.3.6" />
+        <PackageReference Include="DotNetCore.Security" Version="10.3.6" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\CrossCutting\Architecture.CrossCutting.csproj" />
+        <ProjectReference Include="..\Model\Architecture.Model.csproj" />
+    </ItemGroup>
+</Project>
